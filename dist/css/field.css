@@ -1,0 +1,10 @@
+.multiselect__content-wrapper {
+  border: none !important;
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+.multiselect__option {
+  white-space: pre-wrap !important;
+}
+

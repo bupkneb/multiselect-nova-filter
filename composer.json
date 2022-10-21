@@ -1,0 +1,36 @@
+{
+    "name": "bupkneb/multiselect-nova-filter",
+    "description": "Multiselect filter option for Nova.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bupkneb",
+            "email": "bupkneb@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "bupkneb\\Filters\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "bupkneb\\Filters\\FilterServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
