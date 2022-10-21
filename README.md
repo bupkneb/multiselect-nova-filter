@@ -18,7 +18,7 @@ composer require bupkneb/multiselect-nova-filter
 Use `MultiselectFilter` class instead of `Filter`:
 
 ```php
-use benk007\Filters\MultiselectFilter;
+use bupkneb\Filters\MultiselectFilter;
 
 class DocumentOwner extends MultiselectFilter
 {

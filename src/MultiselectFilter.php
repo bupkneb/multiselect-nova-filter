@@ -1,6 +1,6 @@
 <?php
 
-namespace benk007\Filters;
+namespace bupkneb\Filters;
 
 use InvalidArgumentException;
 use Laravel\Nova\Filters\Filter;
